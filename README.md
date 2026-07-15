@@ -3,7 +3,7 @@
 </p>
 
 # Irukandji - Jellyfin Image Compressor
-Jellyfin plugin to optimize images on the fly, and in batch mode.
+A Jellyfin plugin to optimize images on the fly, and in batch mode.
 [WARNING: this was 100% AI coded. All text was 100% human written.]
 
 Irukandji are one the world's smallest (species of) jellyfish, at about 1 cubic centimetre in size.
@@ -23,10 +23,14 @@ If AVIF is available, it will use that format as well (Jellyfin 10.11.11 does no
 
 It identifies mobile clients and offers alternate compression settings (usually higher compression and a default of a maximum of 720px on the long side).
 
-### Function 2 - Saving Metadata
+### Function 2 - Caching
+
+It also creates a cache in memory to store requested images, so for a busy server with multiple clients, it will only compress the images once, and serve them multiple times, further speeding responses.
+
+### Function 3 - Saving Metadata
 Intercepts metadata image downloads that Jellyfin does, and recompresses them before saving locally. When a new movie or show is scanned into Jellyfin, Irukandji will intercept the image and recompress it before it is saved locally.
 
-### Function 3 - Image Compression
+### Function 4 - Image Compression
 Will manually go through your images and recompress / resize them for you, based on your settings. Metadate, avatars, trickplay images (so you can just resize them instead of recreating them from scratch), and even just every image in your media folders.
 
 Shows how much each image was compressed, in both file size and dimensions, along with a total. Plus, if a compression attempt didn't result in significant change (*5% smaller by default*) it discards the result so the image isn't recompressed, and you don't lose image quality for nothing.
@@ -35,7 +39,7 @@ It optionally makes a backup of any images compressed this way so they can be re
 
 Also, you can do a dry run of any part of this function, to see how much space you might save, test for any problems, etc, and it will report all differences, but not write anything to the drive.
 
-### Function 4 - Testing
+### Function 5 - Testing
 
 You can either upload your own image, or search for a movie poster to run a single manual test to see how effective your settings are. Shows the results side by side.
 
