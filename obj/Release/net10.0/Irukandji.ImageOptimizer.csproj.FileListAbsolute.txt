@@ -1,12 +1,5 @@
-/Users/fruchle/Downloads/codingshit/Irukandji.ImageOptimizer/bin/Release/net10.0/Irukandji.ImageOptimizer.deps.json
-/Users/fruchle/Downloads/codingshit/Irukandji.ImageOptimizer/bin/Release/net10.0/Irukandji.ImageOptimizer.dll
-/Users/fruchle/Downloads/codingshit/Irukandji.ImageOptimizer/bin/Release/net10.0/Irukandji.ImageOptimizer.pdb
 /Users/fruchle/Downloads/codingshit/Irukandji.ImageOptimizer/obj/Release/net10.0/Irukandji.ImageOptimizer.csproj.AssemblyReference.cache
 /Users/fruchle/Downloads/codingshit/Irukandji.ImageOptimizer/obj/Release/net10.0/Irukandji.ImageOptimizer.GeneratedMSBuildEditorConfig.editorconfig
 /Users/fruchle/Downloads/codingshit/Irukandji.ImageOptimizer/obj/Release/net10.0/Irukandji.ImageOptimizer.AssemblyInfoInputs.cache
 /Users/fruchle/Downloads/codingshit/Irukandji.ImageOptimizer/obj/Release/net10.0/Irukandji.ImageOptimizer.AssemblyInfo.cs
 /Users/fruchle/Downloads/codingshit/Irukandji.ImageOptimizer/obj/Release/net10.0/Irukandji.ImageOptimizer.csproj.CoreCompileInputs.cache
-/Users/fruchle/Downloads/codingshit/Irukandji.ImageOptimizer/obj/Release/net10.0/Irukandji.ImageOptimizer.dll
-/Users/fruchle/Downloads/codingshit/Irukandji.ImageOptimizer/obj/Release/net10.0/refint/Irukandji.ImageOptimizer.dll
-/Users/fruchle/Downloads/codingshit/Irukandji.ImageOptimizer/obj/Release/net10.0/Irukandji.ImageOptimizer.pdb
-/Users/fruchle/Downloads/codingshit/Irukandji.ImageOptimizer/obj/Release/net10.0/ref/Irukandji.ImageOptimizer.dll

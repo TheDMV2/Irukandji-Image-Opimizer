@@ -14,5 +14,5 @@ build_property.RootNamespace = Irukandji.ImageOptimizer
 build_property.ProjectDir = /Users/fruchle/Downloads/codingshit/Irukandji.ImageOptimizer/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
